@@ -16,6 +16,7 @@ public class Study08 {
 
         //배열 안에 있는 데이터 교체해보기
         b[0] = 11;
+  
         System.out.println(b[0]);
         System.out.println(b);
 

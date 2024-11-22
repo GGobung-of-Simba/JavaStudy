@@ -52,10 +52,8 @@ public class Study04 {
         } else if (a > b){
         } else if (a > b){
 
-        } else if (a )
+        }
         
-
-
 
     }
 

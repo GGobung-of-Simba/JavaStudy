@@ -5,7 +5,7 @@ public class Study12 {
         Study12 클래스 = new Study12();
         // 클래스.배열확인(클래스.문제1값());
         // 클래스.배열확인(클래스.문제2값());
-        클래스.배열확인(클래스.문제3값());
+        클래스.배열확인(클래스.문제4값());
     }
 
     private String[][] 문제1값() {
@@ -58,6 +58,21 @@ public class Study12 {
             }
         }
         return 문제3;
+    }
+
+    private String[][] 문제4값() {
+        String[][] 문제4 = new String[10][10];
+        for(int i = 0; i < 문제4.length; i++) {
+            for(int j = 0; j < 문제4[i].length; j++) {
+                
+                if(j >= 문제4[i].length - i) {
+                    문제4[i][j] = 빈;
+                } else {
+                    문제4[i][j] = o;
+                }
+            }
+        }
+        return 문제4;
     }
 
     private void 배열확인(String[][] 배열) {

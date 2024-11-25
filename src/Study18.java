@@ -17,6 +17,7 @@ class Study18_C implements Study18_I {
 
 interface Study18_I {
     final String txt = "INTERFACE";
+    //4
     //final : 상수값을 만드는 명령어
     public void run();
     //2
